@@ -15,6 +15,23 @@ module.exports = defineConfig({
   },
   modules: {
     stock_location: false,
-    inventory: false
+    inventory: false,
+    product: false,
+    region: false,
+    shipping: false,
+    tax: false,
+    user: false,
+    cart: false,
+    order: false,
+    payment: false,
+    product_category: false,
+    product_option: false,
+    product_tag: false,
+    product_type: false,
+    product_variant: false,
+    product_image: false,
+    product_media: false,
+    product_rating: false,
+    product_review: false,
   }
 })
