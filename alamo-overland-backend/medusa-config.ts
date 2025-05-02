@@ -24,6 +24,9 @@ module.exports = defineConfig({
     cart: false,
     order: false,
     payment: false,
+    pricing: false,
+  
+    // Product submodules
     product_category: false,
     product_option: false,
     product_tag: false,
@@ -33,5 +36,17 @@ module.exports = defineConfig({
     product_media: false,
     product_rating: false,
     product_review: false,
+  
+    // Less common but still sometimes preloaded
+    notification: false,
+    return: false,
+    sales_channel: false,
+    upload: false,
+    gift_card: false,
+    swap: false,
+    claim: false,
+    customer: false,
+    discount: false,
+    fulfillment: false
   }
 })
