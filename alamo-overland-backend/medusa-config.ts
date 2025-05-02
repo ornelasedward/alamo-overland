@@ -12,5 +12,8 @@ module.exports = defineConfig({
       jwtSecret: process.env.JWT_SECRET || "supersecret",
       cookieSecret: process.env.COOKIE_SECRET || "supersecret",
     }
+  },
+  modules: {
+    stock_location: false  // ⛔ disables auto-loading this module
   }
 })
