@@ -1,8 +1,8 @@
 {
   "name": "alamo-overland",
   "version": "0.0.1",
-  "description": "A starter for Medusa projects.",
-  "author": "Medusa (https://medusajs.com)",
+  "description": "A starter for Alamo Overland projects.",
+  "author": "Alamo Overland (https://alamooverland.com)",
   "license": "MIT",
   "keywords": [
     "sqlite",
@@ -10,7 +10,7 @@
     "typescript",
     "ecommerce",
     "headless",
-    "medusa"
+    "alamo-overland"
   ],
   "scripts": {
     "build": "medusa build",
