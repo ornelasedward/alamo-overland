@@ -14,6 +14,7 @@ module.exports = defineConfig({
     }
   },
   modules: {
-    stock_location: false  // ⛔ disables auto-loading this module
+    stock_location: false,
+    inventory: false
   }
 })
